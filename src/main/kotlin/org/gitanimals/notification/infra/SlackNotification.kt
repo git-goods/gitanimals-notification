@@ -26,5 +26,4 @@ abstract class SlackNotification(
 @Component
 class GitAnimalsMarketSlackNotification(
     @Value(value = "\${slack.token}") token: String,
-    channel: String,
-) : SlackNotification(token, channel)
+) : SlackNotification(token, "C079NJ6PVBQ")
